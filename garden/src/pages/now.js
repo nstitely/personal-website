@@ -16,9 +16,9 @@ const NowPage = () => {
       
       <ul>
         <li>Working as an IT Help Desk Technician</li>
-        <li>Building out this website while learning Gatsby and React.</li>
-        <li>Reading The Song of Kali and The Way of Kings.</li>
-        <li>Waiting Vince Staples's new Album. This friday!!!!!</li>
+        <li>Building this website while learning and using Gatsby and React.</li>
+        <li>Reading two books - The Song of Kali and The Way of Kings.</li>
+        <li>Waiting for Vince Staples's new Album. This friday!!!!!</li>
         <li>Playing video games. Want to play deadlock this week or weekend. Lately I've either been playing old school runescape (leagues) or megabonk. Or some random risk of rain 2 runs when I feel like mixing it up.</li>
 
       </ul>
