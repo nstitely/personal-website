@@ -1,0 +1,7 @@
+node_modules/
+.cache/
+public
+
+# local environment secrets
+.env*
+.DS_Store
