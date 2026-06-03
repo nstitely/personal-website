@@ -15,14 +15,14 @@ const NowPage = () => {
       
       <h2>What I'm doing now:</h2>
       
-      <h3>Working / Programming</h3>
+      <h2>Working / Programming</h2>
      
       <p>Working as an IT Help Desk Technician.</p>
       <p>Building this website using Gatsby and React.</p>
 
-      <h3>Hobbies</h3>
+      <h2>Hobbies</h2>
      
-      <h4>Books</h4>
+      <h3>Books</h3>
      
       <p>Currently reading - The Song of Kali and The Way of Kings.</p>
       <p>Want to read:</p>
@@ -33,11 +33,11 @@ const NowPage = () => {
         <li>Essential Keats</li>
       </ul>
      
-      <h4>Music</h4>
+      <h3>Music</h3>
      
       <p>Waiting for Vince Staples's new Album - Cry Baby. This friday, june 5th!!!!!</p>
 
-      <h4>Video Games</h4>
+      <h3>Video Games</h3>
      
       <p>Playing Video Games:</p>
       <ul>
