@@ -13,16 +13,16 @@ const NowPage = () => {
      
       <p><em>Updated June 2, 2026</em></p>
       
-      <p>What I'm doing now:</p>
+      <h2>What I'm doing now:</h2>
       
-      <h2>Working / Programming</h2>
+      <h3>Working / Programming</h3>
      
       <p>Working as an IT Help Desk Technician.</p>
       <p>Building this website using Gatsby and React.</p>
 
-      <h2>Hobbies</h2>
+      <h3>Hobbies</h3>
      
-      <h3>Books</h3>
+      <h4>Books</h4>
      
       <p>Currently reading - The Song of Kali and The Way of Kings.</p>
       <p>Want to read:</p>
@@ -33,11 +33,11 @@ const NowPage = () => {
         <li>Essential Keats</li>
       </ul>
      
-      <h3>Music</h3>
+      <h4>Music</h4>
      
       <p>Waiting for Vince Staples's new Album - Cry Baby. This friday, june 5th!!!!!</p>
 
-      <h3>Video Games</h3>
+      <h4>Video Games</h4>
      
       <p>Playing Video Games:</p>
       <ul>
