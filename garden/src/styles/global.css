@@ -27,3 +27,12 @@ nav a {
   text-decoration-thickness: 2px;
   text-underline-offset: 4px;
 }
+
+html { font-size: 115%;}
+
+p, li {
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+
+li { margin-bottom: 0.5rem;}
