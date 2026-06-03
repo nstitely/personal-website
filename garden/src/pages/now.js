@@ -22,7 +22,7 @@ const NowPage = () => {
 
       <h2>Hobbies</h2>
      
-      <h3>Books</h3>
+      <h2>Books</h2>
      
       <p>Currently reading - The Song of Kali and The Way of Kings.</p>
       <p>Want to read:</p>
@@ -33,11 +33,11 @@ const NowPage = () => {
         <li>Essential Keats</li>
       </ul>
      
-      <h3>Music</h3>
+      <h2>Music</h2>
      
       <p>Waiting for Vince Staples's new Album - Cry Baby. This Friday, June 5th!!!!!</p>
 
-      <h3>Video Games</h3>
+      <h2>Video Games</h2>
      
       <p>Playing video games:</p>
       <ul>
