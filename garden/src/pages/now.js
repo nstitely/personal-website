@@ -13,9 +13,9 @@ const NowPage = () => {
      
       <p><em>Updated June 2, 2026</em></p>
       
-      <h2>What I'm doing now:</h2>
+      <h2>What I'm Doing Now:</h2>
       
-      <h2>Working / Programming</h2>
+      <h2>Working & Programming</h2>
      
       <p>Working as an IT Help Desk Technician.</p>
       <p>Building this website using Gatsby and React.</p>
@@ -35,11 +35,11 @@ const NowPage = () => {
      
       <h3>Music</h3>
      
-      <p>Waiting for Vince Staples's new Album - Cry Baby. This friday, june 5th!!!!!</p>
+      <p>Waiting for Vince Staples's new Album - Cry Baby. This Friday, June 5th!!!!!</p>
 
       <h3>Video Games</h3>
      
-      <p>Playing Video Games:</p>
+      <p>Playing video games:</p>
       <ul>
         <li>Megabonk</li>
         <li>Mini Motorways</li>
