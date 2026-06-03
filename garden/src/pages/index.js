@@ -14,4 +14,7 @@ const IndexPage = () => {
     </main>
   )
 }
+
+export default IndexPage
+
 export const Head = () => <title>my garden</title>
