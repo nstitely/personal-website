@@ -11,7 +11,7 @@ const NowPage = () => {
       
       <h1>Now</h1>
      
-      <p><em>Updated June 1, 2026</em></p>
+      <p><em>Updated June 2, 2026</em></p>
       
       <p>What I'm doing now:</p>
       
