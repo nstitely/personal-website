@@ -10,18 +10,49 @@ const NowPage = () => {
       </nav>
       
       <h1>Now</h1>
-      <p><em>Updated June 1, 2026.</em></p>
+     
+      <p><em>Updated June 1, 2026</em></p>
       
       <p>What I'm doing now:</p>
       
-      <ul>
-        <li>Working as an IT Help Desk Technician</li>
-        <li>Building this website while learning and using Gatsby and React.</li>
-        <li>Reading two books - The Song of Kali and The Way of Kings.</li>
-        <li>Waiting for Vince Staples's new Album. This friday!!!!!</li>
-        <li>Playing video games. Want to play deadlock this week or weekend. Lately I've either been playing old school runescape (leagues) or megabonk. Or some random risk of rain 2 runs when I feel like mixing it up.</li>
+      <h2>Working / Programming</h2>
+     
+      <p>Working as an IT Help Desk Technician.</p>
+      <p>Building this website using Gatsby and React.</p>
 
+      <h2>Hobbies</h2>
+     
+      <h3>Books</h3>
+     
+      <p>Currently reading - The Song of Kali and The Way of Kings.</p>
+      <p>Want to read:</p>
+      <ul>
+        <li>Ilyum</li>
+        <li>Olympos</li>
+        <li>Confessions (something about time allegedly)</li>
+        <li>Essential Keats</li>
       </ul>
+     
+      <h3>Music</h3>
+     
+      <p>Waiting for Vince Staples's new Album - Cry Baby. This friday, june 5th!!!!!</p>
+
+      <h3>Video Games</h3>
+     
+      <p>Playing Video Games:</p>
+      <ul>
+        <li>Megabonk</li>
+        <li>Mini Motorways</li>
+      </ul>
+
+      <p>Want to play:</p>
+    <ul>
+        <li>Deadlock</li>
+        <li>Elden Ring</li>
+        <li>Hades</li>
+        <li>Everything is Crab</li>
+      </ul>
+
     </main>
   )
 }

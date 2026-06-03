@@ -13,4 +13,17 @@ a { color: #a855f7; }
 
 a:hover { text-decoration: underline; }
 
-nav { margin-bottom: 2rem; border-bottom: 1px solid #333; padding-bottom: 1rem; }
+nav { 
+  margin-bottom: 2rem; 
+  border-bottom: 1px solid #333; 
+  
+  font-size: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem; 
+}
+
+nav a {
+  padding: 0.5rem;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
