@@ -24,15 +24,7 @@ jobs:
         script: |
           cd /var/www/personal-website
           git pull origin main
-          
-          export NVM_DIR="$HOME/.nvm"
-          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-          source /etc/profile
-          source ~/.profile 2>/dev/null || true
-          source ~/.bashrc 2>/dev/null || true
-          
           cd garden
-          
           npm install
           npm run build
           sudo systemctl reload nginx
