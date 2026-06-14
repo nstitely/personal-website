@@ -20,13 +20,18 @@ jobs:
         username: ${{ secrets.SERVER_USER }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: 22
+        script_stop: true
         script: |
           cd /var/www/personal-website
           git pull origin main
           
-          # This line ensures Debian finds your Node/NVM environment
           export NVM_DIR="$HOME/.nvm"
           [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+          source /etc/profile
+          source ~/.profile 2>/dev/null || true
+          source ~/.bashrc 2>/dev/null || true
+          
+          cd garden
           
           npm install
           npm run build
