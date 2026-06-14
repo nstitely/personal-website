@@ -22,9 +22,21 @@ jobs:
         port: 22
         script_stop: true
         script: |
+          echo "Allocating temporary swap space..."
+          sudo dd if=/dev/zero of=/swapfile bs=1M count=1024
+          sudo chmod 600 /swapfile
+          sudo mkswap /swapfile
+          sudo swapon /swapfile
           cd /var/www/personal-website
           git pull origin main
           cd garden
+          export NODE_OPTIONS="--max-old-space-size=300"
+          export GATSBY_CPU_COUNT=1
+          echo "Beginning project build phase..."
           npm install
           npm run build
           sudo systemctl reload nginx
+          echo "Cleaning up temporary swap space..."
+          sudo swapoff /swapfile
+          sudo rm /swapfile
+          echo "Deployment completely successful!"
